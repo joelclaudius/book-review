@@ -1,0 +1,27 @@
+.image-section {
+    background-color: #f8f9fa; /* Light grey background for the section */
+    padding: 40px 0; /* Top and bottom padding */
+}
+
+.image-container img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: Adds rounded corners to the images */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow to images */
+}
+
+.image-description {
+    padding: 20px; /* Padding around the text for better spacing */
+    color: #2C2D3F; /* Dark color for text, similar to the heading */
+}
+
+.image-description h3 {
+    color: #333; /* Slightly darker color for headings for contrast */
+    margin-bottom: 15px; /* Space below the headings */
+}
+
+@media (max-width: 768px) {
+    .image-description, .image-container {
+        margin-bottom: 20px; /* Adds space between stacked elements on smaller screens */
+    }
+}
